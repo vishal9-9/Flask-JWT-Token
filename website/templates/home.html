@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+    Home
+{% endblock title %}
+{% block body %}
+    <h1> You Have Logged In </h1>
+    <h1> Your JWT Token is : </h1>
+    <p>{{ data }}</p>
+    <h1> Decoding JWT Token We get: </h1>
+    <p>{{ data1 }}</p>
+{% endblock body %}
